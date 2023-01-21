@@ -1,5 +1,5 @@
 # DetektorPotresa-Android
-- Aplikacija za android koja detektira drhtaje koristeći senozor accelerometer (NAtivescript)
+- Aplikacija za android koja detektira drhtaje koristeći senozor accelerometer (Nativescript)
 
 %%% Instalacija sensora (npm mora biti instaliran)%%%
 npm i nativescript-accelerometer --save

@@ -1,0 +1,24 @@
+<Page navigatingTo="onNavigationTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar title="Detektor Potresa" backgroundColor="skyblue"/>
+    <StackLayout orientation="vertical">
+    <GridLayout class="detektordrhtaja" rows="30,30,30,30" columns="5, 100, 200">
+    <Label text="Detektor:" row="1" col="1" color="#000000"></Label>
+    <Label id="shakeLabel" row ="1" col="2" text="{{ shakeLabel }}"></Label>
+    <Label text="Intezitet:" row="2" col="1" color="#000000"></Label>
+    <Label id="shakeValue" row ="2" col="2" text="{{ shakeValue }}"></Label>
+    </GridLayout>
+    <Label text="" backgroundColor="#000000" width="100%" height="1" />
+    <GridLayout class="akcelerometar" rows="30, 30, 30, 30, 30" columns="5,20,290">
+    <Label text="Trenutne Vrijednost Akcelerometra:" row="0" col="2" color="#000000"></Label>
+    <Label text="x: " row="1" col="1" color="#000000"></Label>
+    <Label text="{{ x }}" row="1" col="2" color="#00FF00"></Label>
+    <Label text="y: " row="2" col="1"  color="#000000"></Label>
+    <Label text="{{ y }}" row="2" col="2" color="#00FF00"></Label>
+    <Label text="z: " row="3" col="1" color="#000000"></Label>
+    <Label text="{{ z }}" row="3" col="2" color="#00FF00"></Label>
+    </GridLayout>
+    <Label text="" backgroundColor="#000000" width="100%" height="1" />
+    <GridLayout class="ikona">
+    </GridLayout>
+    </StackLayout>
+</Page>

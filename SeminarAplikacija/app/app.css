@@ -1,0 +1,32 @@
+﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+/* Place any CSS rules you want to apply on both iOS and Android here.
+This is where the vast majority of your CSS code goes. */
+ActionBar{
+    background-color:skyblue;
+    color: white;
+}
+GridLayout{
+    font-size: 18px;
+    word-spacing: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.detektordrhtaja{
+    color: orangered;
+    background-color: whitesmoke;
+}
+.akcelerometar{
+    background-color: whitesmoke;
+    color: black;
+}
+Page{
+    background-color: whitesmoke;
+}
+.ikona{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/96/96986.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: whitesmoke;
+}
